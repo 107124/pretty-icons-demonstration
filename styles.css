@@ -1,0 +1,42 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 249, 249);
+    border-radius: 30px;
+    margin: 42px 21px;
+    -webkit-box-shadow: 8px 10px 8px -2px rgba(0,0,0,0.34);
+    box-shadow: 8px 10px 8px -2px rgba(0,0,0,0.34);
+}
+
+.icon img {
+    width: 75px;
+    padding: 15px 30px;
+}
+
+.icon p {
+    margin: 0px;
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 200;
+    color: rgb(114, 114, 114);
+}
+
+.price {
+    color: #d1420d;
+    padding-bottom: 5px;
+}
